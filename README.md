@@ -1,18 +1,21 @@
 # SLIMBOOK Grub Theme
+
 Grub theme for SLIMBOOK Laptops
 
 ## To install
+
 Download, run the installer and select your laptop model
 
-```git clone https://github.com/slimbook/slimbook-grub.git```
+`git clone https://github.com/Kicho01/slimbook-grub.git`
 
-```cd slimbook-grub```
+`git checkout custom`
 
-```sudo bash install.sh```
+`cd slimbook-grub`
 
-```select your laptop```
+`sudo bash install.sh`
 
-```reboot```
+`select your laptop`
+
+`reboot`
 
 ![screenshot](https://raw.githubusercontent.com/slimbook/slimboook-grub/master/screenshots/slimbookProXGrubTheme.png)
-
