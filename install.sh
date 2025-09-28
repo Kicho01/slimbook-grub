@@ -3,7 +3,7 @@
 install_msg="You going to install grub theme. Do you want to CONTINUE? (Y/n)"
 installation_canceled_msg="Installation canceled"
 PS3='Please select your laptop: '
-options=("ProX" "Titan" "Hero" "Hero-S" "Excalibur" "Executive" "Essential" "Elemental" "One" "Zero" "Kymera" "Others")
+options=("ProX" "Titan" "Hero" "Hero-S" "Excalibur" "Executive" "Essential" "Elemental" "One" "Zero" "Kymera" "Dell" "Others")
 grub_path=/boot/grub
 themes_path=$grub_path/themes
 slimbook_theme_path=$themes_path/slimbook
@@ -93,7 +93,7 @@ sudo cp -r ./src/images $slimbook_theme_path
 sudo cp -r ./src/pixmap $slimbook_theme_path
 
 echo "copying theme.txt..."
-sudo cp ./src/theme.txt $slimbook_theme_path/theme.txt
+sudo cp ./src/theme_custom.txt $slimbook_theme_path/theme.txt
 
 #grub config
 echo "modifying grub config..."
